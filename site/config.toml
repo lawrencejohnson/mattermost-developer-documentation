@@ -15,7 +15,7 @@ pygmentsStyle = "manni"
 [params]
   # Meta
   author = ""
-  description = ""
+  description = "Your one-stop shop for all of your Mattermost contribution, integration, and extension needs."
   email = ""
   ghrepo = "https://github.com/mattermost/mattermost-developer-documentation/"
 
@@ -138,6 +138,22 @@ pygmentsStyle = "manni"
   #  title = "Watch the video"
   #  icon = "icon-play2"
   #  url = "https://vimeo.com/channels/staffpicks/93951774"
+
+  # Indexes Meta (Sections/Lists that do not have an _index.md)
+  [params.indexes]
+    [[params.indexes.item]]
+      relPermaLink = "/blog/"
+      description = "Read the latest technical how-tos and articles from the Mattermost team and community on the Mattermost Developer Blog."
+
+    [[params.indexes.item]]
+      relPermaLink = "/contribute/"
+      description = "Find out how to contribute to the Mattermost open source project and the various ways to get involved."
+
+  # Categories Meta (Taxonomies appearing under /categories/)
+  [params.categories]
+    [[params.categories.item]]
+      term = "Go"
+      description = "Interested in Go? We are too. Learn about how Mattermost uses Go to build powerful software."
 
   # Footer section
   [params.footer]

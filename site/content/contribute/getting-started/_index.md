@@ -2,6 +2,7 @@
 title: "Getting Started"
 date: "2018-05-19T12:01:23-04:00"
 section: "contribute"
+description: "Learn how you can join the Mattermost community and get started contributing code to Mattermost repositories in GitHub."
 weight: 1
 ---
 
